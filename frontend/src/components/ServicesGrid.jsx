@@ -13,7 +13,7 @@ const ServicesGrid = () => {
             Shop <span className="font-medium text-emerald-700">Best Sellers</span>
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Discover our most popular garden party packages, each carefully crafted to create unforgettable outdoor celebrations.
+            Discover our most popular kokedama plants and garden services, each carefully crafted to bring nature into your home.
           </p>
         </div>
 
