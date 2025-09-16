@@ -13,20 +13,20 @@ const Hero = () => {
       
       <div className="relative z-10 text-center max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-light text-white mb-6 tracking-wide">
-          Kokedama Houseplants &<br />
-          <span className="font-medium">Mobile Garden Services</span>
+          Kokedama, Houseplants &<br />
+          <span className="font-medium">Fresh Flowers</span>
         </h1>
         
         <p className="text-lg md:text-xl text-white/90 mb-8 max-w-2xl mx-auto leading-relaxed">
-          Bringing traditional Japanese moss ball plants and fresh flowers directly to your door 
-          via our sustainable cargo bike service across South East London.
+          Visit our mobile cargo bike stall at parks and locations across South East London 
+          for handmade kokedama, beautiful houseplants, and fresh seasonal flowers.
         </p>
         
         <Button 
           size="lg" 
           className="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-3 text-lg font-medium transition-all duration-300 transform hover:scale-105"
         >
-          SHOP ALL PLANTS
+          SEE OUR LOCATIONS
         </Button>
         
         {/* Trustpilot Widget Placeholder */}
