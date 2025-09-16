@@ -10,10 +10,10 @@ const Header = () => {
       {/* Announcement Banner */}
       <div className="bg-emerald-800 text-white text-sm py-2 overflow-hidden">
         <div className="animate-scroll whitespace-nowrap flex space-x-8">
-          <span className="mx-8">Free cargo bike delivery in SE London</span>
+          <span className="mx-8">Mobile cargo bike stall across SE London</span>
           <span className="mx-8">Handmade kokedama using traditional methods</span>
           <span className="mx-8">Expert plant care advice included</span>
-          <span className="mx-8">Free cargo bike delivery in SE London</span>
+          <span className="mx-8">Mobile cargo bike stall across SE London</span>
           <span className="mx-8">Handmade kokedama using traditional methods</span>
           <span className="mx-8">Expert plant care advice included</span>
         </div>
