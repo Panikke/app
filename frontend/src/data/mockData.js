@@ -81,63 +81,63 @@ export const testimonials = [
 export const upcomingEvents = [
   {
     date: "20th September",
-    event: "Garden Party Planning Workshop",
-    location: "Hampstead Heath Community Centre", 
+    event: "Kokedama Workshop",
+    location: "Greenwich Community Centre", 
     time: "11am to 1pm",
-    description: "Learn the basics of planning elegant garden parties"
+    description: "Learn to make your own Japanese moss ball plants"
   },
   {
     date: "7th October", 
-    event: "Autumn Celebration Setup",
-    location: "Regent's Park",
-    time: "10am to 4pm", 
-    description: "Seasonal themed party demonstration"
+    event: "Cargo Bike Plant Market",
+    location: "Blackheath Farmers Market",
+    time: "9am to 2pm", 
+    description: "Fresh plants and flowers direct from our mobile garden"
   },
   {
     date: "19th October",
-    event: "Corporate Event Showcase", 
-    location: "Hyde Park Corner",
-    time: "2pm to 6pm",
-    description: "Professional garden party setups for businesses"
+    event: "Bonsai Care Workshop", 
+    location: "New Cross Learning Centre",
+    time: "2pm to 4pm",
+    description: "Essential care techniques for indoor bonsai trees"
   }
 ];
 
 export const collections = [
   {
     id: 1,
-    name: "Intimate Gatherings",
-    description: "Perfect for small celebrations and personal milestones",
+    name: "Moss Kokedamas",
+    description: "Traditional Japanese moss ball plants for any space",
     image: "https://images.unsplash.com/photo-1659123087151-f8a9bde5c9c3",
-    link: "/collections/intimate"
+    link: "/collections/kokedama"
   },
   {
     id: 2,
-    name: "Celebration Events", 
-    description: "Milestone birthdays, anniversaries, and special occasions",
+    name: "Indoor Bonsai Trees", 
+    description: "Beginner-friendly miniature trees for mindful living",
     image: "https://images.unsplash.com/photo-1543168256-8133cc8e3ee4",
-    link: "/collections/celebrations"
+    link: "/collections/bonsai"
   },
   {
     id: 3,
-    name: "Corporate Functions",
-    description: "Professional networking and company celebrations",
+    name: "Fresh Flower Delivery",
+    description: "Cargo bike delivery across South East London",
     image: "https://images.pexels.com/photos/587741/pexels-photo-587741.jpeg", 
-    link: "/collections/corporate"
+    link: "/collections/flowers"
   },
   {
     id: 4,
-    name: "Seasonal Themes",
-    description: "Weather-appropriate setups for any time of year",
+    name: "Garden Services",
+    description: "Professional gardening and plant consultation",
     image: "https://images.pexels.com/photos/698907/pexels-photo-698907.jpeg",
-    link: "/collections/seasonal"
+    link: "/collections/services"
   }
 ];
 
 export const features = [
-  "Free consultation for events over £500",
-  "Weather contingency planning included", 
-  "Professional setup and breakdown",
-  "Sustainable and eco-friendly practices"
+  "Free cargo bike delivery in SE London",
+  "Sustainable and eco-friendly practices", 
+  "Expert plant care advice included",
+  "Handmade kokedama using traditional methods"
 ];
 
 export const partnerLogos = [
