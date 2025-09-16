@@ -6,7 +6,6 @@ import ServicesGrid from '../components/ServicesGrid';
 import UpcomingEvents from '../components/UpcomingEvents';
 import CollectionsGrid from '../components/CollectionsGrid';
 import FeaturesSection from '../components/FeaturesSection';
-import GiftSection from '../components/GiftSection';
 import FeaturedLogos from '../components/FeaturedLogos';
 import NewsletterModal from '../components/NewsletterModal';
 
