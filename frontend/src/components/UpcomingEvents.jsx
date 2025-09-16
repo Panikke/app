@@ -46,7 +46,7 @@ const UpcomingEvents = () => {
             </div>
             
             <p className="text-gray-600 italic">
-              **Other dates to be confirmed across London boroughs.**
+              **Follow us on Instagram @gardenpartylondon for live location updates.**
             </p>
             
             <Button 
