@@ -20,8 +20,8 @@ const UpcomingEvents = () => {
           {/* Content */}
           <div className="order-1 lg:order-2 space-y-6">
             <h2 className="text-3xl md:text-4xl font-light text-gray-900 leading-tight">
-              Upcoming Workshops,<br />
-              <span className="font-medium text-emerald-700">Events and Showcases</span>
+              Find Our Mobile Stall<br />
+              <span className="font-medium text-emerald-700">Locations & Workshops</span>
             </h2>
             
             <div className="space-y-4">
