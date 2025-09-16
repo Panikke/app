@@ -98,64 +98,64 @@ export const testimonials = [
 
 export const upcomingEvents = [
   {
-    date: "20th September",
-    event: "Kokedama Workshop",
-    location: "Greenwich Community Centre", 
-    time: "11am to 1pm",
-    description: "Learn to make your own Japanese moss ball plants"
+    date: "Saturday 21st Sep",
+    event: "Mobile Plant Stall",
+    location: "Greenwich Park (near playground)", 
+    time: "10am to 4pm",
+    description: "Fresh flowers, kokedama and houseplants available"
   },
   {
-    date: "7th October", 
-    event: "Cargo Bike Plant Market",
-    location: "Blackheath Farmers Market",
-    time: "9am to 2pm", 
-    description: "Fresh plants and flowers direct from our mobile garden"
+    date: "Sunday 22nd Sep", 
+    event: "Mobile Plant Stall",
+    location: "Blackheath Common (main entrance)",
+    time: "11am to 3pm", 
+    description: "Seasonal flowers and handmade kokedama"
   },
   {
-    date: "19th October",
-    event: "Bonsai Care Workshop", 
-    location: "New Cross Learning Centre",
+    date: "Saturday 28th Sep",
+    event: "Kokedama Workshop", 
+    location: "New Cross Community Centre",
     time: "2pm to 4pm",
-    description: "Essential care techniques for indoor bonsai trees"
+    description: "Learn to make your own Japanese moss ball plants - £25"
   }
 ];
 
 export const collections = [
   {
     id: 1,
-    name: "Moss Kokedamas",
-    description: "Traditional Japanese moss ball plants for any space",
+    name: "Kokedama Collection",
+    description: "Traditional Japanese moss ball plants - no pots needed",
     image: "https://images.unsplash.com/photo-1659123087151-f8a9bde5c9c3",
-    link: "/collections/kokedama"
+    link: "#services"
   },
   {
     id: 2,
-    name: "Indoor Bonsai Trees", 
-    description: "Beginner-friendly miniature trees for mindful living",
+    name: "Fresh Flowers", 
+    description: "Seasonal bouquets and individual stems",
     image: "https://images.unsplash.com/photo-1543168256-8133cc8e3ee4",
-    link: "/collections/bonsai"
+    link: "#services"
   },
   {
     id: 3,
-    name: "Fresh Flower Delivery",
-    description: "Cargo bike delivery across South East London",
+    name: "Houseplants",
+    description: "Perfect indoor plants for London homes",
     image: "https://images.pexels.com/photos/587741/pexels-photo-587741.jpeg", 
-    link: "/collections/flowers"
+    link: "#services"
   },
   {
     id: 4,
     name: "Garden Services",
-    description: "Professional gardening and plant consultation",
+    description: "Professional consultation and plant advice",
     image: "https://images.pexels.com/photos/698907/pexels-photo-698907.jpeg",
-    link: "/collections/services"
+    link: "#services"
   }
 ];
 
 export const features = [
-  "Free cargo bike delivery in SE London",
-  "Sustainable and eco-friendly practices", 
+  "Mobile cargo bike stall across SE London",
+  "Handmade kokedama using traditional methods", 
   "Expert plant care advice included",
-  "Handmade kokedama using traditional methods"
+  "Sustainable and eco-friendly practices"
 ];
 
 export const partnerLogos = [
