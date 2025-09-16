@@ -60,7 +60,7 @@ const ServicesGrid = () => {
               
               <CardFooter className="p-4 pt-0 space-y-2">
                 <Button className="w-full bg-emerald-600 hover:bg-emerald-700 text-white transition-colors">
-                  Choose Package
+                  Add to Cart
                 </Button>
                 <Button variant="outline" size="sm" className="w-full text-emerald-600 border-emerald-200 hover:bg-emerald-50">
                   Quick View
