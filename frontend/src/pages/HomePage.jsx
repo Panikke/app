@@ -19,7 +19,6 @@ const HomePage = () => {
       <UpcomingEvents />
       <CollectionsGrid />
       <FeaturesSection />
-      <GiftSection />
       <FeaturedLogos />
       <NewsletterModal />
     </div>
