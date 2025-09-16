@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import { Search, Menu, ShoppingBag, X } from 'lucide-react';
 import { Button } from './ui/button';
+import { Link, useLocation } from 'react-router-dom';
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const location = useLocation();
 
   return (
     <>
@@ -29,13 +31,13 @@ const Header = () => {
             </div>
 
             {/* Logo */}
-            <div className="flex items-center space-x-2">
+            <Link to="/" className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-emerald-100 rounded-full flex items-center justify-center">
                 <div className="w-4 h-4 bg-emerald-600 rounded-full"></div>
               </div>
               <span className="text-xl font-semibold tracking-wide">GARDEN PARTY</span>
               <span className="text-sm text-gray-500">LONDON</span>
-            </div>
+            </Link>
 
             {/* Mobile menu button */}
             <div className="md:hidden">
@@ -50,18 +52,36 @@ const Header = () => {
 
             {/* Desktop Navigation */}
             <nav className="hidden md:flex space-x-8">
-              <a href="#services" className="text-gray-700 hover:text-emerald-600 transition-colors font-medium">
+              <Link 
+                to="/" 
+                className={`transition-colors font-medium ${
+                  location.pathname === '/' 
+                    ? 'text-emerald-600' 
+                    : 'text-gray-700 hover:text-emerald-600'
+                }`}
+              >
                 SHOP
-              </a>
-              <a href="#collections" className="text-gray-700 hover:text-emerald-600 transition-colors font-medium">
-                COLLECTIONS
-              </a>
-              <a href="#workshops" className="text-gray-700 hover:text-emerald-600 transition-colors font-medium">
-                LOCATIONS
-              </a>
-              <a href="#workshops" className="text-gray-700 hover:text-emerald-600 transition-colors font-medium">
-                WORKSHOPS
-              </a>
+              </Link>
+              <Link 
+                to="/behind-the-party" 
+                className={`transition-colors font-medium ${
+                  location.pathname === '/behind-the-party' 
+                    ? 'text-emerald-600' 
+                    : 'text-gray-700 hover:text-emerald-600'
+                }`}
+              >
+                BEHIND THE PARTY
+              </Link>
+              <Link 
+                to="/after-party" 
+                className={`transition-colors font-medium ${
+                  location.pathname === '/after-party' 
+                    ? 'text-emerald-600' 
+                    : 'text-gray-700 hover:text-emerald-600'
+                }`}
+              >
+                AFTER PARTY
+              </Link>
               <a href="#about" className="text-gray-700 hover:text-emerald-600 transition-colors font-medium">
                 ABOUT
               </a>
@@ -78,18 +98,39 @@ const Header = () => {
         {isMobileMenuOpen && (
           <div className="md:hidden bg-white border-t border-gray-100">
             <div className="px-4 py-4 space-y-4">
-              <a href="#services" className="block text-gray-700 hover:text-emerald-600 transition-colors font-medium">
-                SERVICES
-              </a>
-              <a href="#collections" className="block text-gray-700 hover:text-emerald-600 transition-colors font-medium">
-                PACKAGES
-              </a>
-              <a href="#workshops" className="block text-gray-700 hover:text-emerald-600 transition-colors font-medium">
-                WORKSHOPS
-              </a>
-              <a href="#corporate" className="block text-gray-700 hover:text-emerald-600 transition-colors font-medium">
-                CORPORATE
-              </a>
+              <Link 
+                to="/" 
+                className={`block transition-colors font-medium ${
+                  location.pathname === '/' 
+                    ? 'text-emerald-600' 
+                    : 'text-gray-700 hover:text-emerald-600'
+                }`}
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                SHOP
+              </Link>
+              <Link 
+                to="/behind-the-party" 
+                className={`block transition-colors font-medium ${
+                  location.pathname === '/behind-the-party' 
+                    ? 'text-emerald-600' 
+                    : 'text-gray-700 hover:text-emerald-600'
+                }`}
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                BEHIND THE PARTY
+              </Link>
+              <Link 
+                to="/after-party" 
+                className={`block transition-colors font-medium ${
+                  location.pathname === '/after-party' 
+                    ? 'text-emerald-600' 
+                    : 'text-gray-700 hover:text-emerald-600'
+                }`}
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                AFTER PARTY
+              </Link>
               <a href="#about" className="block text-gray-700 hover:text-emerald-600 transition-colors font-medium">
                 ABOUT
               </a>
