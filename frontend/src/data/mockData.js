@@ -18,17 +18,17 @@ export const services = [
     price: "£36.99",
     originalPrice: "£40.99",
     image: "https://images.unsplash.com/photo-1447434108058-49f9248d09a5",
-    category: "bonsai",
+    category: "kokedama",
     features: ["Beginner friendly", "Professionally shaped", "Eco-friendly moss", "Growth guide included"]
   },
   {
     id: 3,
-    name: "Fresh Seasonal Flower Bouquet",
-    description: "Mobile delivery via cargo bike across South East London", 
-    price: "£25.00",
+    name: "Fresh Seasonal Flower Bouquets",
+    description: "Beautiful fresh flowers available at our mobile stall locations", 
+    price: "£15.00",
     image: "https://images.pexels.com/photos/587741/pexels-photo-587741.jpeg",
     category: "flowers",
-    features: ["Same-day delivery", "Cargo bike service", "Locally sourced", "Eco-friendly packaging"]
+    features: ["Freshly picked", "Seasonal varieties", "Multiple sizes", "Eco-friendly wrapping"]
   },
   {
     id: 4,
@@ -39,6 +39,24 @@ export const services = [
     image: "https://images.pexels.com/photos/698907/pexels-photo-698907.jpeg",
     category: "kokedama",
     features: ["Low maintenance", "Sustainable materials", "Perfect for beginners", "Long-lasting"]
+  },
+  {
+    id: 5,
+    name: "Potted Houseplants",
+    description: "Variety of indoor plants perfect for London homes",
+    price: "£12.00",
+    image: "https://images.unsplash.com/photo-1659123087151-f8a9bde5c9c3",
+    category: "plants",
+    features: ["Various sizes", "Care instructions", "London-suitable", "Healthy specimens"]
+  },
+  {
+    id: 6,
+    name: "Garden Consultation Service",
+    description: "Professional advice for your garden and plant care needs",
+    price: "£45.00",
+    image: "https://images.unsplash.com/photo-1543168256-8133cc8e3ee4",
+    category: "services",
+    features: ["Expert advice", "Plant selection help", "Care guidance", "Problem solving"]
   }
 ];
 
