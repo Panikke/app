@@ -51,16 +51,16 @@ const Header = () => {
             {/* Desktop Navigation */}
             <nav className="hidden md:flex space-x-8">
               <a href="#services" className="text-gray-700 hover:text-emerald-600 transition-colors font-medium">
-                SERVICES
+                SHOP
               </a>
               <a href="#collections" className="text-gray-700 hover:text-emerald-600 transition-colors font-medium">
-                PACKAGES
+                KOKEDAMA
               </a>
               <a href="#workshops" className="text-gray-700 hover:text-emerald-600 transition-colors font-medium">
                 WORKSHOPS
               </a>
-              <a href="#corporate" className="text-gray-700 hover:text-emerald-600 transition-colors font-medium">
-                CORPORATE
+              <a href="#services" className="text-gray-700 hover:text-emerald-600 transition-colors font-medium">
+                GARDEN SERVICES
               </a>
               <a href="#about" className="text-gray-700 hover:text-emerald-600 transition-colors font-medium">
                 ABOUT
