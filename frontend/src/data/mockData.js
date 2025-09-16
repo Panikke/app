@@ -46,34 +46,34 @@ export const testimonials = [
   {
     id: 1,
     name: "Sarah Mitchell",
-    event: "Anniversary Celebration", 
+    location: "Greenwich", 
     date: "September 2024",
-    review: "Garden Party London transformed our 25th anniversary into pure magic. The attention to detail was extraordinary, and our guests are still talking about the beautiful setup!",
+    review: "Amazing kokedama delivery service! My Chinese Elm bonsai arrived perfectly packaged and the care instructions are so helpful. Love supporting local SE London business!",
     rating: 5,
     image: "https://images.pexels.com/photos/33915850/pexels-photo-33915850.jpeg"
   },
   {
     id: 2, 
     name: "James Thompson",
-    event: "Corporate Event",
+    location: "Blackheath",
     date: "August 2024", 
-    review: "Professional, elegant, and perfectly executed. Our company garden party was a huge success thanks to their impeccable planning and execution.",
+    review: "Garden Party's cargo bike flower delivery is brilliant! Fresh, beautiful bouquets delivered right to my door. So much more sustainable than traditional flower delivery.",
     rating: 5
   },
   {
     id: 3,
     name: "Emma Richardson", 
-    event: "Birthday Garden Party",
+    location: "New Cross",
     date: "July 2024",
-    review: "Absolutely stunning setup for my 40th birthday! The cocktail service and décor exceeded all expectations. Highly recommend!",
+    review: "Absolutely love my Bird's Nest Fern kokedama! The moss ball is so unique and it's thriving in my flat. Great quality plants and excellent customer service.",
     rating: 5
   },
   {
     id: 4,
     name: "Oliver Barnes",
-    event: "Wedding Reception", 
+    location: "Lewisham", 
     date: "June 2024",
-    review: "Our outdoor wedding reception was flawless. Beautiful lighting, perfect coordination, and stress-free experience for us.",
+    review: "Professional garden consultation service helped transform my small backyard. Really knowledgeable about plants suitable for London growing conditions.",
     rating: 5
   }
 ];
