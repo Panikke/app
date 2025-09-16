@@ -3,42 +3,42 @@
 export const services = [
   {
     id: 1,
-    name: "Intimate Garden Soirée",
-    description: "Perfect for birthday celebrations and small gatherings",
-    price: "£350",
-    originalPrice: "£400",
+    name: "Birds Nest Fern Moss Kokedama",
+    description: "Perfect air-purifying houseplant in traditional moss ball",
+    price: "£23.99",
+    originalPrice: "£28.99",
     image: "https://images.unsplash.com/photo-1425421598808-4a22ce59cc97",
-    category: "intimate",
-    features: ["Up to 20 guests", "2-hour setup", "Basic décor", "Refreshment coordination"]
+    category: "kokedama",
+    features: ["Easy care", "Air purifying", "Handmade moss ball", "Care instructions included"]
   },
   {
     id: 2,
-    name: "Elegant Anniversary Celebration", 
-    description: "Sophisticated setup for milestone celebrations",
-    price: "£650",
-    originalPrice: "£750",
+    name: "Shaped Chinese Elm Bonsai Kokedama", 
+    description: "Beginner-friendly bonsai in sustainable moss wrapping",
+    price: "£36.99",
+    originalPrice: "£40.99",
     image: "https://images.unsplash.com/photo-1447434108058-49f9248d09a5",
-    category: "celebration",
-    features: ["Up to 50 guests", "Premium décor", "Full catering coordination", "Photography assistance"]
+    category: "bonsai",
+    features: ["Beginner friendly", "Professionally shaped", "Eco-friendly moss", "Growth guide included"]
   },
   {
     id: 3,
-    name: "Corporate Garden Event",
-    description: "Professional outdoor networking and company celebrations", 
-    price: "£850",
+    name: "Fresh Seasonal Flower Bouquet",
+    description: "Mobile delivery via cargo bike across South East London", 
+    price: "£25.00",
     image: "https://images.pexels.com/photos/587741/pexels-photo-587741.jpeg",
-    category: "corporate",
-    features: ["Up to 100 guests", "Professional setup", "Audio/visual equipment", "Catering management"]
+    category: "flowers",
+    features: ["Same-day delivery", "Cargo bike service", "Locally sourced", "Eco-friendly packaging"]
   },
   {
     id: 4,
-    name: "Seasonal Festival Setup",
-    description: "Themed seasonal parties with decorative elements",
-    price: "£475",
-    originalPrice: "£550", 
+    name: "Asparagus Fern Coco-Fibre Kokedama",
+    description: "Low maintenance fern in sustainable coconut fibre",
+    price: "£22.99",
+    originalPrice: "£26.99", 
     image: "https://images.pexels.com/photos/698907/pexels-photo-698907.jpeg",
-    category: "seasonal",
-    features: ["Seasonal themes", "Weather contingencies", "Lighting arrangements", "Entertainment coordination"]
+    category: "kokedama",
+    features: ["Low maintenance", "Sustainable materials", "Perfect for beginners", "Long-lasting"]
   }
 ];
 
