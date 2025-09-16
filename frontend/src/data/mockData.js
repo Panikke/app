@@ -64,34 +64,34 @@ export const testimonials = [
   {
     id: 1,
     name: "Sarah Mitchell",
-    location: "Greenwich", 
+    location: "Greenwich Park", 
     date: "September 2024",
-    review: "Amazing kokedama delivery service! My Chinese Elm bonsai arrived perfectly packaged and the care instructions are so helpful. Love supporting local SE London business!",
+    review: "Found Garden Party at Greenwich Park and bought the most beautiful kokedama! The quality is amazing and I love that it's handmade. Will definitely visit their stall again.",
     rating: 5,
     image: "https://images.pexels.com/photos/33915850/pexels-photo-33915850.jpeg"
   },
   {
     id: 2, 
     name: "James Thompson",
-    location: "Blackheath",
+    location: "Blackheath Common",
     date: "August 2024", 
-    review: "Garden Party's cargo bike flower delivery is brilliant! Fresh, beautiful bouquets delivered right to my door. So much more sustainable than traditional flower delivery.",
+    review: "Spotted the cargo bike flower stall on Blackheath and picked up gorgeous seasonal flowers. Such a brilliant concept and the flowers lasted ages!",
     rating: 5
   },
   {
     id: 3,
     name: "Emma Richardson", 
-    location: "New Cross",
+    location: "Brockley Market",
     date: "July 2024",
-    review: "Absolutely love my Bird's Nest Fern kokedama! The moss ball is so unique and it's thriving in my flat. Great quality plants and excellent customer service.",
+    review: "Bought my first kokedama from their stall at Brockley Market. Love how unique it is and it's thriving in my flat. Great to support local business!",
     rating: 5
   },
   {
     id: 4,
     name: "Oliver Barnes",
-    location: "Lewisham", 
+    location: "Lewisham High Street", 
     date: "June 2024",
-    review: "Professional garden consultation service helped transform my small backyard. Really knowledgeable about plants suitable for London growing conditions.",
+    review: "Garden consultation was so helpful! They know exactly which plants work in small London gardens. My balcony has never looked better.",
     rating: 5
   }
 ];
