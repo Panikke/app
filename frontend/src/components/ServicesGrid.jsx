@@ -10,10 +10,10 @@ const ServicesGrid = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-light text-gray-900 mb-4">
-            Shop <span className="font-medium text-emerald-700">Best Sellers</span>
+            Shop Our <span className="font-medium text-emerald-700">Plant Collection</span>
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Discover our most popular kokedama plants and garden services, each carefully crafted to bring nature into your home.
+            Visit our cargo bike stall to browse handmade kokedama, beautiful houseplants, fresh flowers, and garden services.
           </p>
         </div>
 
