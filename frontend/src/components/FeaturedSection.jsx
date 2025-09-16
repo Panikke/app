@@ -18,20 +18,20 @@ const FeaturedSection = () => {
           {/* Content */}
           <div className="order-1 lg:order-2 space-y-6">
             <h2 className="text-3xl md:text-4xl font-light text-gray-900 leading-tight">
-              Featured in The London<br />
-              <span className="font-medium text-emerald-700">Evening Standard</span>
+              Featured on South London<br />
+              <span className="font-medium text-emerald-700">Community Radio</span>
             </h2>
             
             <p className="text-gray-600 leading-relaxed text-lg">
-              Garden Party London founder, Charlotte Williams, was recently featured 
-              in The London Evening Standard's lifestyle section, showcasing the art 
-              of creating sophisticated outdoor celebrations in the heart of London.
+              Garden Party London founder was recently featured on South London 
+              Community Radio, showcasing the art of traditional Japanese kokedama 
+              and the benefits of sustainable cargo bike delivery services.
             </p>
             
             <p className="text-gray-600 leading-relaxed">
-              In a special feature highlighting London's premier event planners, Charlotte 
-              demonstrated the meticulous planning and attention to detail that goes into 
-              creating unforgettable garden parties, from intimate gatherings to grand celebrations.
+              In a special feature about innovative local businesses, we demonstrated 
+              the mindful practice of moss ball planting and how our eco-friendly 
+              mobile service is bringing nature directly to South East London homes.
             </p>
             
             <Button 
