@@ -66,7 +66,7 @@ const TestimonialsCarousel = () => {
             {currentTestimonial.name}
           </div>
           <div className="text-gray-500 text-sm">
-            {currentTestimonial.event} - {currentTestimonial.date}
+            {currentTestimonial.location} - {currentTestimonial.date}
           </div>
         </div>
 
